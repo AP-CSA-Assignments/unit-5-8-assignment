@@ -1,19 +1,16 @@
 public class Dog
 {
-  private String breed;
-  private double weight;
   private String name;
-  private String color;
+  private int ID;
+  private static int numDogs = 0;
 
-  // Make setters
-  public void setBreed(String iBreed)
-  {
-    breed = iBreed;
-  }
+  // Non-default Dog constructor
 
-  // Make getters
-  public String getBreed()
-  {
-    return breed;
-  }
+  // Default Dog constructor
+
+  // Setters - instance variables only
+
+  // Getters - instance variables only
+
+  // method getNumDogs
 }
